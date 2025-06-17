@@ -1,0 +1,17 @@
+{"step": "Instruction: Create a new Git branch and switch to it"}
+{"step": "Plan:"}
+{"step": "1. Create a new Git branch named \"feature/new-feature\""}
+{"step": "2. Switch to the \"feature/new-feature\" branch"}
+{"step": "3. Make changes to the code and commit them to the branch"}
+{"step": "4. Push the changes to the remote repository"}
+{"step": "5. Create a pull request to merge the changes back into the main branch"}
+{"step": "6. Wait for the pull request to be approved and merged"}
+{"step": "7. Celebrate!"}
+{"step": "Example:"}
+{"step": "```"}
+{"step": "$ git branch feature/new-feature"}
+{"step": "$ git checkout feature/new-feature"}
+{"step": "$ vi src/main.cpp"}
+{"step": "$ git add src/main.cpp"}
+{"step": "$ git commit -m \"Added new feature\""}
+{"step": "$ git push"}

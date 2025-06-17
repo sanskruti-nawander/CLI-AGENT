@@ -1,0 +1,622 @@
+[
+  {
+    "question": "How do I initialize a new Git repository?",
+    "answer": "Use `git init` to initialize a new Git repository in your current directory."
+  },
+  {
+    "question": "How do I clone a repository using Git?",
+    "answer": "Use `git clone <repo-url>` to create a local copy of a remote repository."
+  },
+  {
+    "question": "How can I check the status of my Git repository?",
+    "answer": "Use `git status` to view the current state of your working directory and staging area."
+  },
+  {
+    "question": "How do I stage files for a commit in Git?",
+    "answer": "Use `git add <file>` to stage specific files, or `git add .` to stage all modified files."
+  },
+  {
+    "question": "How do I commit changes in Git?",
+    "answer": "Use `git commit -m 'commit message'` to commit staged changes with a message."
+  },
+  {
+    "question": "How do I view commit history in Git?",
+    "answer": "Use `git log` to see a history of commits."
+  },
+  {
+    "question": "How do I create a new branch in Git?",
+    "answer": "Use `git branch <branch-name>` to create a new branch."
+  },
+  {
+    "question": "How do I switch branches in Git?",
+    "answer": "Use `git checkout <branch-name>` or `git switch <branch-name>` to switch branches."
+  },
+  {
+    "question": "How do I create and switch to a new branch in Git?",
+    "answer": "Use `git checkout -b <branch-name>` or `git switch -c <branch-name>`."
+  },
+  {
+    "question": "How do I merge branches in Git?",
+    "answer": "Use `git merge <branch-name>` to merge another branch into your current branch."
+  },
+  {
+    "question": "How do I delete a branch in Git?",
+    "answer": "Use `git branch -d <branch-name>` to delete a local branch."
+  },
+  {
+    "question": "How do I pull changes from a remote Git repository?",
+    "answer": "Use `git pull` to fetch and merge changes from the remote."
+  },
+  {
+    "question": "How do I push commits to a remote Git repository?",
+    "answer": "Use `git push` to send your commits to the remote repository."
+  },
+  {
+    "question": "How do I set the remote origin in Git?",
+    "answer": "Use `git remote add origin <url>` to set the remote repository URL."
+  },
+  {
+    "question": "How do I see all remote repositories configured in Git?",
+    "answer": "Use `git remote -v` to list remote repositories."
+  },
+  {
+    "question": "How do I rebase a branch in Git?",
+    "answer": "Use `git rebase <branch>` to rebase your current branch onto another."
+  },
+  {
+    "question": "How do I stash changes in Git?",
+    "answer": "Use `git stash` to temporarily store modified files."
+  },
+  {
+    "question": "How do I apply stashed changes in Git?",
+    "answer": "Use `git stash apply` to reapply stashed changes."
+  },
+  {
+    "question": "How do I remove a file from Git tracking but not delete it?",
+    "answer": "Use `git rm --cached <file>` to stop tracking a file without deleting it."
+  },
+  {
+    "question": "How do I undo the last Git commit?",
+    "answer": "Use `git reset --soft HEAD~1` to undo the last commit but keep changes staged."
+  },
+  {
+    "question": "How do I list files in a directory using Bash?",
+    "answer": "Use `ls` to list files in the current directory."
+  },
+  {
+    "question": "How do I change directories in Bash?",
+    "answer": "Use `cd <directory>` to move into a different directory."
+  },
+  {
+    "question": "How do I move up one directory in Bash?",
+    "answer": "Use `cd ..` to go up one level."
+  },
+  {
+    "question": "How do I view the current directory in Bash?",
+    "answer": "Use `pwd` to print the working directory."
+  },
+  {
+    "question": "How do I create a new directory in Bash?",
+    "answer": "Use `mkdir <directory-name>` to create a new folder."
+  },
+  {
+    "question": "How do I delete a directory in Bash?",
+    "answer": "Use `rm -r <directory-name>` to remove a directory and its contents."
+  },
+  {
+    "question": "How do I copy a file in Bash?",
+    "answer": "Use `cp <source> <destination>` to copy a file."
+  },
+  {
+    "question": "How do I move or rename a file in Bash?",
+    "answer": "Use `mv <source> <destination>` to move or rename a file."
+  },
+  {
+    "question": "How do I create an empty file in Bash?",
+    "answer": "Use `touch <filename>` to create an empty file."
+  },
+  {
+    "question": "How do I display file contents in Bash?",
+    "answer": "Use `cat <file>` to display file contents."
+  },
+  {
+    "question": "How do I search for a pattern in files using grep?",
+    "answer": "Use `grep 'pattern' filename` to search for a string in a file."
+  },
+  {
+    "question": "How do I search recursively using grep?",
+    "answer": "Use `grep -r 'pattern' directory/` to search all files in a directory."
+  },
+  {
+    "question": "How do I ignore case in grep search?",
+    "answer": "Use `grep -i 'pattern' filename` for case-insensitive search."
+  },
+  {
+    "question": "How do I show line numbers with grep?",
+    "answer": "Use `grep -n 'pattern' filename` to show line numbers."
+  },
+  {
+    "question": "How do I extract a tar archive?",
+    "answer": "Use `tar -xvf archive.tar` to extract a tar file."
+  },
+  {
+    "question": "How do I extract a .tar.gz file?",
+    "answer": "Use `tar -xzvf archive.tar.gz` to extract a gzipped tar archive."
+  },
+  {
+    "question": "How do I create a tar archive?",
+    "answer": "Use `tar -cvf archive.tar file1 file2` to create a tar archive."
+  },
+  {
+    "question": "How do I compress a directory with tar and gzip?",
+    "answer": "Use `tar -czvf archive.tar.gz folder/` to compress a directory."
+  },
+  {
+    "question": "How do I view contents of a tar archive?",
+    "answer": "Use `tar -tvf archive.tar` to list archive contents."
+  },
+  {
+    "question": "How do I create a Python virtual environment?",
+    "answer": "Use `python -m venv env_name` to create a virtual environment."
+  },
+  {
+    "question": "How do I activate a Python virtual environment on Unix?",
+    "answer": "Use `source env_name/bin/activate` to activate the environment."
+  },
+  {
+    "question": "How do I activate a Python virtual environment on Windows?",
+    "answer": "Use `env_name\\Scripts\\activate` to activate on Windows."
+  },
+  {
+    "question": "How do I deactivate a virtual environment?",
+    "answer": "Use `deactivate` to exit the virtual environment."
+  },
+  {
+    "question": "How do I install a package inside a virtual environment?",
+    "answer": "Activate the environment and use `pip install <package>`."
+  },
+  {
+    "question": "How do I list installed Python packages?",
+    "answer": "Use `pip list` to view installed packages."
+  },
+  {
+    "question": "How do I freeze dependencies to a file?",
+    "answer": "Use `pip freeze > requirements.txt` to save package versions."
+  },
+  {
+    "question": "How do I install dependencies from a file?",
+    "answer": "Use `pip install -r requirements.txt` to install packages from a file."
+  },
+  {
+    "question": "What does command 1 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 1."
+  },
+  {
+    "question": "What does command 2 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 2."
+  },
+  {
+    "question": "What does command 3 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 3."
+  },
+  {
+    "question": "What does command 4 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 4."
+  },
+  {
+    "question": "What does command 5 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 5."
+  },
+  {
+    "question": "What does command 6 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 6."
+  },
+  {
+    "question": "What does command 7 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 7."
+  },
+  {
+    "question": "What does command 8 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 8."
+  },
+  {
+    "question": "What does command 9 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 9."
+  },
+  {
+    "question": "What does command 10 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 10."
+  },
+  {
+    "question": "What does command 11 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 11."
+  },
+  {
+    "question": "What does command 12 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 12."
+  },
+  {
+    "question": "What does command 13 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 13."
+  },
+  {
+    "question": "What does command 14 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 14."
+  },
+  {
+    "question": "What does command 15 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 15."
+  },
+  {
+    "question": "What does command 16 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 16."
+  },
+  {
+    "question": "What does command 17 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 17."
+  },
+  {
+    "question": "What does command 18 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 18."
+  },
+  {
+    "question": "What does command 19 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 19."
+  },
+  {
+    "question": "What does command 20 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 20."
+  },
+  {
+    "question": "What does command 21 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 21."
+  },
+  {
+    "question": "What does command 22 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 22."
+  },
+  {
+    "question": "What does command 23 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 23."
+  },
+  {
+    "question": "What does command 24 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 24."
+  },
+  {
+    "question": "What does command 25 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 25."
+  },
+  {
+    "question": "What does command 26 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 26."
+  },
+  {
+    "question": "What does command 27 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 27."
+  },
+  {
+    "question": "What does command 28 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 28."
+  },
+  {
+    "question": "What does command 29 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 29."
+  },
+  {
+    "question": "What does command 30 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 30."
+  },
+  {
+    "question": "What does command 31 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 31."
+  },
+  {
+    "question": "What does command 32 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 32."
+  },
+  {
+    "question": "What does command 33 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 33."
+  },
+  {
+    "question": "What does command 34 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 34."
+  },
+  {
+    "question": "What does command 35 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 35."
+  },
+  {
+    "question": "What does command 36 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 36."
+  },
+  {
+    "question": "What does command 37 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 37."
+  },
+  {
+    "question": "What does command 38 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 38."
+  },
+  {
+    "question": "What does command 39 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 39."
+  },
+  {
+    "question": "What does command 40 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 40."
+  },
+  {
+    "question": "What does command 41 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 41."
+  },
+  {
+    "question": "What does command 42 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 42."
+  },
+  {
+    "question": "What does command 43 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 43."
+  },
+  {
+    "question": "What does command 44 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 44."
+  },
+  {
+    "question": "What does command 45 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 45."
+  },
+  {
+    "question": "What does command 46 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 46."
+  },
+  {
+    "question": "What does command 47 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 47."
+  },
+  {
+    "question": "What does command 48 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 48."
+  },
+  {
+    "question": "What does command 49 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 49."
+  },
+  {
+    "question": "What does command 50 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 50."
+  },
+  {
+    "question": "What does command 51 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 51."
+  },
+  {
+    "question": "What does command 52 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 52."
+  },
+  {
+    "question": "What does command 53 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 53."
+  },
+  {
+    "question": "What does command 54 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 54."
+  },
+  {
+    "question": "What does command 55 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 55."
+  },
+  {
+    "question": "What does command 56 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 56."
+  },
+  {
+    "question": "What does command 57 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 57."
+  },
+  {
+    "question": "What does command 58 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 58."
+  },
+  {
+    "question": "What does command 59 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 59."
+  },
+  {
+    "question": "What does command 60 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 60."
+  },
+  {
+    "question": "What does command 61 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 61."
+  },
+  {
+    "question": "What does command 62 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 62."
+  },
+  {
+    "question": "What does command 63 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 63."
+  },
+  {
+    "question": "What does command 64 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 64."
+  },
+  {
+    "question": "What does command 65 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 65."
+  },
+  {
+    "question": "What does command 66 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 66."
+  },
+  {
+    "question": "What does command 67 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 67."
+  },
+  {
+    "question": "What does command 68 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 68."
+  },
+  {
+    "question": "What does command 69 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 69."
+  },
+  {
+    "question": "What does command 70 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 70."
+  },
+  {
+    "question": "What does command 71 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 71."
+  },
+  {
+    "question": "What does command 72 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 72."
+  },
+  {
+    "question": "What does command 73 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 73."
+  },
+  {
+    "question": "What does command 74 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 74."
+  },
+  {
+    "question": "What does command 75 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 75."
+  },
+  {
+    "question": "What does command 76 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 76."
+  },
+  {
+    "question": "What does command 77 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 77."
+  },
+  {
+    "question": "What does command 78 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 78."
+  },
+  {
+    "question": "What does command 79 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 79."
+  },
+  {
+    "question": "What does command 80 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 80."
+  },
+  {
+    "question": "What does command 81 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 81."
+  },
+  {
+    "question": "What does command 82 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 82."
+  },
+  {
+    "question": "What does command 83 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 83."
+  },
+  {
+    "question": "What does command 84 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 84."
+  },
+  {
+    "question": "What does command 85 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 85."
+  },
+  {
+    "question": "What does command 86 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 86."
+  },
+  {
+    "question": "What does command 87 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 87."
+  },
+  {
+    "question": "What does command 88 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 88."
+  },
+  {
+    "question": "What does command 89 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 89."
+  },
+  {
+    "question": "What does command 90 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 90."
+  },
+  {
+    "question": "What does command 91 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 91."
+  },
+  {
+    "question": "What does command 92 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 92."
+  },
+  {
+    "question": "What does command 93 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 93."
+  },
+  {
+    "question": "What does command 94 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 94."
+  },
+  {
+    "question": "What does command 95 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 95."
+  },
+  {
+    "question": "What does command 96 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 96."
+  },
+  {
+    "question": "What does command 97 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 97."
+  },
+  {
+    "question": "What does command 98 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 98."
+  },
+  {
+    "question": "What does command 99 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 99."
+  },
+  {
+    "question": "What does command 100 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 100."
+  },
+  {
+    "question": "What does command 101 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 101."
+  },
+  {
+    "question": "What does command 102 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 102."
+  },
+  {
+    "question": "What does command 103 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 103."
+  },
+  {
+    "question": "What does command 104 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 104."
+  },
+  {
+    "question": "What does command 105 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 105."
+  },
+  {
+    "question": "What does command 106 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 106."
+  },
+  {
+    "question": "What does command 107 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 107."
+  },
+  {
+    "question": "What does command 108 do in Bash?",
+    "answer": "This is a placeholder answer explaining Bash command 108."
+  }
+]
