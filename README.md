@@ -45,4 +45,4 @@ python agent.py "Create a new Git branch and switch to it"
 
 ## 📽️ Demo
 
-Demo is recorded in a 5-minute MP4 file named `demo.mp4` (optional)
+Demo is recorded in this [MP4 video on YouTube](https://youtu.be/ztonhOArkJY?feature=shared) 
